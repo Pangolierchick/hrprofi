@@ -10,5 +10,5 @@ app.use(urlencoded({ extended: true }));
 app.use("/", rootRouter);
 
 app.listen(config.port, () => {
-  console.log("Running");
+  console.log("Running ", config.port);
 });
